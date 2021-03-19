@@ -16,3 +16,7 @@
 $router->get('/', function () use ($router) {
     return view('greeting', ['name' => 'James']);
 });
+
+$router->post('/task', function () use ($router) {
+    //
+});
